@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>Markdown Editor</title>
+        <meta charset="utf-8"/>
+        <script src="include.js"></script>        
+    </head>
+    <body>
+        <div id=nav>
+            <a href="https://github.com/pn11/OkaNote"><h1>OkaNote</h1></a>
+            <!-- <img id=logo src="doc/logo.png">-->
+            <ul>
+                <li/> <a>Side Bar </a>
+<!--                <li/> <a href="../index.html">Home</a>
+                <li/> <a href="../doc/manual.html">Manual</a>
+                <li/> <a href="https://github.com/codemirror/codemirror">Code</a>
+-->
+            </ul>
+            <ul>
+<!--                <li/> <a class=active href="#">Code Folding</a>   -->
+            </ul>
+        </div>
+        <article>
+            <h2>Markdown Editor</h2>
+            <form name="filename_form">
+                <input type="text" name="filename" size="20" maxlength="15" value="Input filename here." />
+                <input type="button" value="Open" onclick="readFile();" />
+            </form>
+
+            <form>
+                <div style="max-width: 50em"><br>
+                    <textarea id="code-markdown" name="code"></textarea>
+                </div>
+                <script>constructTextArea();</script>
+            </form>
+            
+            <button onclick="writeToFile('test.md', getText());">
+                Save
+            </button>
+
+            <form name="saveAs_form">
+                <input type="text" name="filename" size="20" maxlength="15" value="Input filename here." />
+                <input type="button" value="Get Date" onclick="void(0);" />
+                <input type="button" value="Save As" onclick="void(0);" />
+            </form>
+            </button>
+            <div id=log></div>
+            
+        </article>
+    </body>
+</html>
+

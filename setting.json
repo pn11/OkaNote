@@ -1,0 +1,4 @@
+var setting = '[{
+"CodeMirrorPath" : "~/git/CodeMirror",
+    "JQueryPath" : "~/git/jquery"
+}]';

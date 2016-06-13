@@ -1,0 +1,25 @@
+{
+  "name": "OkaNote,
+  "version": "1.0.0",
+  "description": "Oka's Markdown Note App.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pn11/OkaNote.git"
+  },
+  "keywords": [
+    "Markdown"
+  ],
+  "author": "OKA Naoya",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/pn11/OkaNote/issues"
+  },
+  "homepage": "https://github.com/pn11/OkaNote/#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  }
+}

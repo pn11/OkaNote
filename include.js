@@ -1,4 +1,4 @@
-var setting = '{"CodeMirrorPath" : "/Users/oka/git/CodeMirror", "JQueryPath" : "/Users/oka/git/jquery"}';
+var setting = '{"CodeMirrorPath" : "js/CodeMirror", "JQueryPath" : "js/jquery"}';
 
 
 var json = JSON.parse(setting);

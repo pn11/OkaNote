@@ -27,19 +27,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		4FCF03691CFDAF6D005D55B5 /* markdown-editor */ = {
+		4FBC12591D0EE2FE00582A98 /* OkaNote */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = 4FCF036C1CFDAF6D005D55B5 /* Build configuration list for PBXLegacyTarget "markdown-editor" */;
+			buildConfigurationList = 4FBC125A1D0EE2FE00582A98 /* Build configuration list for PBXLegacyTarget "OkaNote" */;
 			buildPhases = (
 			);
-			buildToolPath = /Users/oka/git/CodeMirror/myMarkdownManager/start.sh;
-			buildWorkingDirectory = "";
+			buildToolPath = /Users/oka/git/OkaNote/start.sh;
 			dependencies = (
 			);
-			name = "markdown-editor";
+			name = OkaNote;
 			passBuildSettingsInEnvironment = 1;
-			productName = "markdown-editor";
+			productName = OkaNote;
 		};
 /* End PBXLegacyTarget section */
 
@@ -49,12 +48,12 @@
 			attributes = {
 				LastUpgradeCheck = 0700;
 				TargetAttributes = {
-					4FCF03691CFDAF6D005D55B5 = {
-						CreatedOnToolsVersion = 7.0.1;
+					4FBC12591D0EE2FE00582A98 = {
+						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
-			buildConfigurationList = 4F8C47591CFB6C350018F5EA /* Build configuration list for PBXProject "markdown-editor" */;
+			buildConfigurationList = 4F8C47591CFB6C350018F5EA /* Build configuration list for PBXProject "OkaNote" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -65,7 +64,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4FCF03691CFDAF6D005D55B5 /* markdown-editor */,
+				4FBC12591D0EE2FE00582A98 /* OkaNote */,
 			);
 		};
 /* End PBXProject section */
@@ -83,7 +82,7 @@
 			};
 			name = Release;
 		};
-		4FCF036A1CFDAF6D005D55B5 /* Debug */ = {
+		4FBC125B1D0EE2FE00582A98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -104,7 +103,6 @@
 				DEBUGGING_SYMBOLS = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -114,21 +112,24 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		4FCF036B1CFDAF6D005D55B5 /* Release */ = {
+		4FBC125C1D0EE2FE00582A98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -157,17 +158,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F8C47591CFB6C350018F5EA /* Build configuration list for PBXProject "markdown-editor" */ = {
+		4F8C47591CFB6C350018F5EA /* Build configuration list for PBXProject "OkaNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F8C475A1CFB6C350018F5EA /* Debug */,
@@ -176,11 +179,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FCF036C1CFDAF6D005D55B5 /* Build configuration list for PBXLegacyTarget "markdown-editor" */ = {
+		4FBC125A1D0EE2FE00582A98 /* Build configuration list for PBXLegacyTarget "OkaNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FCF036A1CFDAF6D005D55B5 /* Debug */,
-				4FCF036B1CFDAF6D005D55B5 /* Release */,
+				4FBC125B1D0EE2FE00582A98 /* Debug */,
+				4FBC125C1D0EE2FE00582A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

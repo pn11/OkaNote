@@ -19,11 +19,16 @@
             <ul>
 <!--                <li/> <a class=active href="#">Code Folding</a>   -->
             </ul>
+            <form name="dir_form">
+                <input type="text" name="dirname" size="20" maxlength="100" value="/Users/oka/git/notes/2015" />
+            </form>
+            <button onclick="listDir();">ls</button>
+            <div id="filelist"></div>
         </div>
         <article>
             <h2>Markdown Editor</h2>
             <form name="filename_form">
-                <input type="text" name="filename" size="20" maxlength="15" value="Input filename here." />
+                <input type="text" name="filename" size="20" maxlength="100" value="Input filename here." />
                 <input type="button" value="Open" onclick="readFile();" />
             </form>
 
@@ -43,7 +48,8 @@
                 <input type="button" value="Get Date" onclick="void(0);" />
                 <input type="button" value="Save As" onclick="void(0);" />
             </form>
-            </button>
+            <button>git pull</button> <button>git commit</button> <button>git push</button>
+
             <div id=log></div>
             
         </article>

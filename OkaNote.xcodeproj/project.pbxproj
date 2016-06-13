@@ -186,6 +186,7 @@
 				4FBC125C1D0EE2FE00582A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
